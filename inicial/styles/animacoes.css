@@ -1,0 +1,11 @@
+.girando{animation: girar 10s linear infinite;}
+
+@keyframes girar{
+    from{transform: rotate(0)}
+    to{transform: rotate(360deg)}
+}
+
+@keyframes aparecer{
+    from{opacity: 0; transform: translateY(20px)}
+    to{opacity: 1; transform: translateY(0)}
+}

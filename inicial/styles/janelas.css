@@ -1,0 +1,45 @@
+.janela{background-color: #d9d3c4;
+border: 2px solid  #6b6b6b;
+box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.484);
+font-family: 'VT323', monospace;
+font-size: 16px;
+position: fixed}
+
+.janela .titlebar{background: linear-gradient(90deg, #6b7fb0, #a9b8e0);
+padding: 4px 8px;
+color: #fff;}
+
+.janela .titlebar p{margin: 0}
+
+.janela .content{padding-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column}
+
+.principal{top: 20%;
+left: 25%;
+height: 70%;
+width: 50%;
+animation: aparecer 1s;
+z-index: 0}
+
+.musica{top: 10%;
+left: 6%;
+height: 30%;
+width: 15%;
+animation: aparecer 2s;
+z-index: 1;}
+
+.fotoaki{top: 60%;
+left: 75%;
+height: 30%;
+width: 15%;
+animation: aparecer 7s;
+z-index: 1;}
+
+.pokemon{height: 30%;
+width: 15%;
+left: 80%;
+top: 16%;
+animation: aparecer 3s}
