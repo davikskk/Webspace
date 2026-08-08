@@ -15,14 +15,23 @@ color: #fff;}
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: column}
+flex-direction: column;
+font-size: 20px}
+
+.janela .content h1{font-size: 50px}
 
 .principal{top: 20%;
-left: 25%;
+left: 20%;
 height: 70%;
-width: 50%;
+width: 35%;
 animation: aparecer 1s;
 z-index: 0}
+
+.menu{top: 20%;
+left: 59%;
+height: 70%;
+width: 20%;
+animation: aparecer 2s;}
 
 .musica{top: 10%;
 left: 6%;
@@ -43,3 +52,9 @@ width: 15%;
 left: 80%;
 top: 16%;
 animation: aparecer 3s}
+
+.clique{height: 50px;
+width: 150px;
+background-color: #d9d3c4;
+border-top: 1px white;
+border-left: 1px white}
