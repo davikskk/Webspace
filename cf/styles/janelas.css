@@ -19,6 +19,9 @@ font-size: 20px}
 
 .janela .content h1{font-size: 50px}
 
+.aviso{height: 200px;
+width: 200px}
+
 .principal{top: 20%;
 left: 20%;
 height: 70%;
@@ -70,11 +73,18 @@ text-decoration: none}
 border-right-color: #ffffff;
 border-bottom-color: #ffffff}
 
-.polaroid{height: 200px;
-width: 200px;
+.polaroid{height: 250px;
+width: 250px;
 background-color: #ffffff;
 padding: 10px 10px 34px;
-box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+box-shadow: 0 10px 20px rgba(0,0,0,0.3);}
+
+.polaroidc1{top: 50%;
+left: 30%;
+position: absolute;
 transform: rotate(-3deg);}
 
-.polaroidc{top: 90%;}
+.polaroidc2{top: 30%;
+left: 50%;
+position: absolute;
+transform: rotate(1deg)}
