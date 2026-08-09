@@ -1,15 +1,18 @@
+head, body{overflow: hidden}
+
 body{background-image: url("../imagens/wallpapers/flowers.jpg");
 height: 100vh;
 width: 100vw;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 20px
 }
 
 h1{color: white;
-font-size: 50px}
+font-size: 50px;
+position: fixed;
+top: 70%;
+left: 30%}
 
 img{height: 400px;
-width: 400px}
+width: 400px;
+top:20%;
+left: 38%;
+position: fixed}
