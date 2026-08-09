@@ -1,3 +1,6 @@
+/*janelas windows 7*/
+
+
 .janela{background-color: #d9d3c4;
 border: 2px solid  #6b6b6b;
 box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.484);
@@ -55,6 +58,8 @@ left: 80%;
 top: 16%;
 animation: aparecer 3s}
 
+/*botão*/
+
 .clique{height: 50px;
 width: 150px;
 background-color: #d9d3c4;
@@ -72,6 +77,15 @@ text-decoration: none}
 .clique:active{border: 3px outset #6b6b6b;
 border-right-color: #ffffff;
 border-bottom-color: #ffffff}
+
+.voltar{height: 50px;
+width: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer}
+
+/*polaroid*/
 
 .polaroid{height: 250px;
 width: 250px;
